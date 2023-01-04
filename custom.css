@@ -1,0 +1,49 @@
+h1{
+    margin: 0px 0px;
+    font-size: 400%;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-family: Sprite-Graffiti, Regular, sprite-graffiti;
+    color: rgb(193, 20, 236);
+}
+h2 {
+    margin: 8px 0px;
+    font-size: 200%;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(12, 74, 102);
+}
+div {
+    margin: 60px 0px;
+    display: inline-block, center;
+    font-size: 180%;
+    font-weight: normal;
+    font-style: normal;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    margin: 0px 0px;
+    text-align: center;
+    font-size: 16px; 
+    font-style: normal;
+    font-weight: bold;
+}
+  .ch1 {
+    transition: .5s all ease; 
+  /*   Тег отвечающий за плавную анимацию у кнопки */
+   
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 12em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  .ch1:hover { background: rgb(221, 136, 124); }                    /* при наведении курсора мышки */
+  .ch1:active { background: rgb(152, 0, 84); }                     /*  при нажатии  */
